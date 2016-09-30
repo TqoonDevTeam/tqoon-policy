@@ -1,0 +1,248 @@
+
+// ui custom
+
+@charset "utf-8"
+
+
+code
+	font-family: 'Open Sans', sans-serif
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight
+	margin-bottom: 5px
+h1, h2, h3, h4, h5, h6
+	color: #222
+
+strong, b
+	font-weight: 500
+	color: #222
+
+i
+	display: inline-block
+	padding-left: 1px
+	//letter-spacing: -1px
+	border-radius: 100px
+	text-align: center
+	font-style: normal
+	font-weight: 300
+	color: #fff
+	background: rgba(5, 0, 100, 0.55)
+	&.v
+		background: rgba(255, 0, 10, 0.63)
+
+ul,ol,dl
+	line-height: 1.8
+
+// home
+.set-layout
+	&:before,&:after
+		display: table
+		content: ''
+		clear: both
+	> ul
+		+f-l
+		+w(200px)
+	> article
+		+f-r
+		+w(calc(100% - 220px))
+		+o-h
+
+
+
+.home,.post
+	h1.page-heading
+		display: none
+	i
+		width: auto
+		min-width: 6px
+		margin-top: -3px
+		padding-left: 5px
+		padding-right: 5px
+		line-height: 16px
+		vertical-align: middle
+		font-size: 11px
+
+	ul.post-list
+		margin: 0
+		padding: 30px 0
+		h2
+			margin: 0
+		li
+			margin-bottom: 20px
+		span.post-meta
+		//display: none
+		i
+			width: auto
+			min-width: 26px
+			margin-top: 0px
+			padding-left: 6px
+			padding-right: 7px
+			line-height: 36px
+			letter-spacing: normal
+			font-size: 20px
+
+
+.post
+	ul.post-list
+		padding: 0
+		position: relative
+		font-size: 0px
+		li
+			$divide: 1
+			display: inline-block
+			position: relative
+			width: calc((100% - #{$divide} * 10px) / #{$divide})
+			vertical-align: top
+			+rspn(600)
+				$divide: 2
+				width: calc((100% - #{$divide} * 10px) / #{$divide})
+				&:nth-of-type(even)
+					margin-left: 20px
+			a
+				display: block
+				position: relative
+				&:before,&:after
+					clear: both
+					display: table
+					content: ''
+				i
+					display: block
+					float: left
+					outline: 1px solid
+
+				span
+					float: left
+					display: block
+					width: calc(100% - (120px + 15px))
+					margin-top: 5px
+					margin-left: 12px
+					line-height: 1
+
+
+	ul.nav
+		margin-left: 0
+		margin-bottom: 40px
+		font-size: 0px
+		li
+			display: inline-block
+			position: relative
+			$divide: 2
+			width: calc((100% - #{$divide} * 10px) / #{$divide})
+			+rspn(600)
+				$divide: 4
+				width: calc((100% - #{$divide} * 10px) / #{$divide})
+			padding-left: 10px
+			font-size: 16px
+
+			&:before
+				position: absolute
+				content: '-'
+				left: 0
+
+
+// page
+
+
+header
+	//&.site-header
+		background-color: #483573
+		a.site-title
+			color: #fff
+		.site-nav
+			+rspn(600)
+				a.page-link
+					color: #fff
+
+	&.post-header
+		h1
+			line-height: 36px
+			font-size: 30px
+			i
+				display: inline-block
+				width: auto
+				min-width: 26px
+				margin-top: -7px
+				margin-right: 5px
+				padding-right: 8px
+				line-height: 36px
+				font-size: 20px
+				vertical-align: middle
+
+.page-content,.wrapper
+	&:before
+		content: ''
+		display: table
+		clear: both
+//padding: 0
+.page-content
+	//background-color: #f3f3f7
+	.wrapper
+		//outline: 1px solid
+		background-color: #fdfdfd
+.post-header
+	margin-bottom: 20px
+.post-title
+	// h1
+	margin-top: 40px
+	font-size: 40px
+.post-meta
+	time
+		display: none
+.post-content
+	padding-top: 30px
+	border-top: 5px solid #f3f3f7
+	h2
+		&:nth-of-type(1)
+			margin-top: 20px
+		+ h3
+			margin-top: 20px
+		margin-top: 50px
+		font-size: 24px
+
+	h3
+		+ h4
+			margin-top: 20px
+		margin-top: 30px
+		margin-left: 20px
+		font-size: 20px
+		color: #63499e
+
+	h4
+		+ h5
+			margin-top: 20px
+		margin-top: 30px
+		margin-left: 20px
+		font-size: 18px
+
+	h5
+		margin-top: 30px
+		margin-left: 20px
+		font-size: 16px
+
+	ul,ol,dl
+		margin-left: 50px
+
+	p,pre
+		margin-bottom: 20px
+
+	img
+		display: block
+		border: 1px solid #eaeaea
+		border-radius: 3px
+//padding: 20px
+
+
+
+// Code formatting
+
+pre,
+code,
+.highlighter-rouge .highlight
+	border: 1px solid #e5dff1
+	background-color: #f3f3f7
+code
+	white-space: pre-wrap
+pre
+	font-weight: 300
+	border: 0
+pre
+	padding: 15px 25px

@@ -1,0 +1,562 @@
+
+@charset "utf-8"
+
+// base
+$c-white: #ffffff
+$c-black: #000000
+
+$c-ft-dft: #727579 // font
+$c-bd-dft: darken(#eaeaea,3%) // border
+$c-body-dft: #EEEFF0 //#EBECED // body bg
+$c-otl-dft: #dddddd // outline
+
+$tp: transparent
+$c-ipt: #e45 // important
+$c-point: #888D94 //  // //
+$c-point-h: darken($c-point, 5%) // point color over
+$c-link: #4A90E2
+
+// button
+$c-active: $c-point
+$c-active-h: darken($c-active, 5%) // button color over
+$c-active2: #888D94
+$c-active2-h: darken($c-active2, 5%) // button color over
+$c-bg-dft: #e9e9e9
+$c-bg-dft-h: darken($c-bg-dft, 5%)
+
+// item
+$c-soldout: #ed3357 // price, caution
+
+$c-join-bg: $c-point //#6FABC7
+$c-join-cr: $c-white
+
+// $c-price: #e45
+$c-selection-bg: darken($c-point, 10%)
+$c-selection-cr: $c-white
+
+// default
+$c-ft-dft: #727579
+$c-ft-dft-h: #727579
+
+// default box
+$c-box-bg: #fff
+
+// list
+$c-divide-shape: #ddd
+$c-item-list-cr: $c-ft-dft
+$c-item-list-bg: #fff
+$c-item-grid-cr: $c-ft-dft
+$c-item-grid-bg: $tp
+$c-item-bg: #fff
+
+// modal
+$c-modal-bg: #eaeaea
+$c-modal-wrap-bg: rgba(0,0,0,.4)
+$c-modal-con-bg: $c-white
+$c-modal-icon-info: lighten($c-ft-dft,20%)
+$c-modal-icon-prev: lighten($c-ft-dft,20%)
+$c-modal-icon-close: lighten($c-ft-dft,20%)
+
+// header
+$c-header-bg: rgba(255,255,255,.8)
+$c-header-cr: $c-ft-dft
+$c-push-num: rgba(255,0,30,.60)
+$c-quick-icon: lighten($c-point,10%)
+$c-quick-icon-h: lighten($c-point,20%)
+
+// gnb-nav
+$c-nav-gnb-cr: $c-header-cr
+$c-nav-gnb-bg: darken($c-header-bg,3%)
+$c-nav-gnb-child-bg: #fff //$c-header-bg
+$c-nav-gnb-h: $c-point // hover,active
+
+// gnb-nav-draw
+$c-nav-gnb-draw-cr: #9CA4AF
+$c-nav-gnb-draw-cr-active: #fff
+$c-nav-gnb-draw-bg: #3A3F49
+$c-nav-gnb-draw-child-bg: #4A4E57
+$c-nav-gnb-draw-toggle: $c-point
+
+// lnb-nav
+$c-nav-v-lnb-cr: $c-ft-dft
+$c-nav-v-lnb-cr-active: darken($c-point,30%)
+$c-nav-v-lnb-bg: #fff
+$c-nav-v-lnb-child-bg: #fff
+
+$c-nav-h-lnb-dp1-cr: $c-ft-dft
+$c-nav-h-lnb-dp1-bg: $tp
+$c-nav-h-lnb-dp1-bg-h: $c-point-h
+
+$c-nav-v-lnb-dp1-cr: $c-ft-dft
+$c-nav-v-lnb-dp1-bg: #eee
+$c-nav-v-lnb-dp1-bg-h: darken($c-nav-v-lnb-dp1-bg,5%)
+$c-nav-v-lnb-dp1-bg-point-h: $c-point
+
+// form
+$c-disabled: #dddddd
+$c-form-bd: darken(#eaeaea,3%)
+$c-form-bg: #f7f7f7
+$c-form-error: #FF7C7C
+$c-form-ok: #81E0AB // button ok
+$c-form-cr: #ffffff
+$c-label-bg: #f7f7f7
+$c-form-switch-bg: $c-point
+$c-form-switch-cr: #ffffff
+$c-form-switch-bg-checked: #81E0AB
+$c-ft-webkit-placeholder: #999999
+$c-ft-moz-placeholder: #999999
+$c-webkit-autofill: #fff0ee
+$c-select-option-bg: #f3f3f3
+
+// error
+$c-error-ft-webkit-placeholder: #aaaaaa
+$c-error-ft-moz-placeholder: #999999
+$c-error-webkit-autofill: #fff0ee
+
+// content
+$c-rating-base: #ddd
+$c-rating-off: #e9e9e9
+$c-rating-star: $c-point //#ffca00
+$c-rule: #e9e9e9
+
+// table
+$c-tb-bg: #f6f6f6
+$c-tb-bd: #eaeaea
+
+// paging
+$c-otl-paging: $tp //$c-otl-dft
+$c-ft-paging: $c-ft-dft
+$c-ft-paging-h: $c-ft-dft
+$c-ft-active: $c-white
+$c-bg-paging: $c-bg-dft // $c-white
+$c-bg-paging-h: darken($c-bg-paging, 5%) // $c-white
+
+// cart
+$c-ft-cart: $c-white
+$c-ft-cart-h: $c-white
+$c-bg-cart: $c-point
+$c-bg-cart-h: darken($c-bg-cart, 5%)
+
+// buy
+$c-ft-buy: $c-white
+$c-ft-buy-h: $c-white
+$c-bg-buy: #9CD070
+$c-bg-buy-h: darken($c-bg-buy, 5%)
+
+// buy-guest
+$c-ft-buy-guest: $c-white
+$c-ft-buy-guest-h: $c-white
+$c-bg-buy-guest: #9CA4AF
+$c-bg-buy-guest-h: darken($c-bg-buy-guest, 5%)
+
+// pay
+$c-ft-pay: $c-white
+$c-ft-pay-h: $c-white
+$c-bg-pay: #53585f
+$c-bg-pay-h: darken($c-bg-pay, 5%)
+
+// continue
+// $c-ft-continue: $c-white
+// $c-ft-continue-h: $c-white
+// $c-bg-continue: #888
+// $c-bg-continue-h: darken($c-bg-continue, 5%)
+
+// action
+$c-ft-action: $c-white
+$c-ft-action-h: $c-white
+$c-bg-action: $c-point //$c-point //#53585f
+$c-bg-action-h: darken($c-bg-action, 5%)
+
+// join
+$c-ft-join: $c-white
+$c-ft-join-h: $c-white
+$c-bg-join: #9CD070
+$c-bg-join-h: darken($c-bg-join, 5%)
+
+// sign
+$c-ft-sign: $c-white
+$c-ft-sign-h: $c-white
+$c-bg-sign: $c-point //$c-point //#53585f
+$c-bg-sign-h: darken($c-bg-sign, 5%)
+
+// abbreviation 약어
+// 싱글 value 단위공통 $u
+
+$n: none
+$a: auto
+$t: top
+$r: right
+$b: bottom
+$l: left
+$c: center
+$m: middle
+$h: hidden
+$v: visible
+$ipt: !important
+
+$mg: margin
+$pd: padding
+$mn: min-
+$mx: max-
+
+$nr: no-repeat
+$rx: repeat-x
+$ry: repeat-y
+
+$tp: transparent
+
+// typo
+=ta-c ($i: null)
+	text-align: $c $i
+=ta-l ($i: null)
+	text-align: $l $i
+=ta-r ($i: null)
+	text-align: $r $i
+=ta-j ($i: null)
+	text-align: justify $i
+=td-n ($i: null)
+	text-decoration: $n $i
+=td-u ($i: null)
+	text-decoration: underline $i
+=td-o ($i: null)
+	text-decoration: overline $i
+=td-t ($i: null)
+	text-decoration: line-through $i
+=to-e ($i: null)
+	width: 100% $i
+	overflow: hidden $i
+	white-space: nowrap $i
+	text-overflow: ellipsis $i
+=fs ($u, $i: null)
+	font-size: $u $i
+=ff ($u, $i: null)
+	font-family: $u $i
+=fw ($u, $i: null)
+	font-weight: $u $i
+=fw-b ($i: null)
+	font-weight: bold $i
+=fw-n ($i: null)
+	font-weight: normal $i
+=l-h ($u, $i: null)
+	line-height: $u $i
+=l-s ($u, $i: null)
+	letter-spacing: $u $i
+=wtsa ($u, $i: null)
+	-webkit-text-size-adjust: $u $i // Stops Mobile Safari from auto-adjusting font-sizes
+=wb-a ($i: null)
+	word-break: break-all $i
+=ww-w ($i: null)
+	word-wrap: break-word $i
+// // color
+=cr ($u, $i: null)
+	color: $u $i
+
+// // background
+=bg ($c:$tp, $u:'', $r:$nr, $i: null)
+	background: $c url($u) $r $i
+=bg-c ($c:$tp, $i: null)
+	background-color: $c $i
+=bg-rgb ($r:0,$g:0,$b:0,$o:.5, $i: null)
+	background-color: rgba($r,$g,$b,$o,$i)
+=bg-i ($u:'', $i: null)
+	background-image: url($u) $i
+	background-repeat: $nr $i
+=bg-p ($h:0, $v:0, $i: null)
+	background-position: $h $v $i
+=bg-s ($w:null, $h:null, $s:null, $i: null)
+	background-size: $w $h $s $i
+=bg-r ($r:$nr, $i: null)
+	background-repeat: $r $i
+=bg-gnt ($cs:'', $ce:'', $p:top, $i: null)
+	//background: $cs
+	background-image: -webkit-linear-gradient($p, $cs, $ce) $i
+	background-image: -moz-linear-gradient($p, $cs, $ce) $i
+	background-image: -ms-linear-gradient($p, $cs, $ce) $i
+	background-image: -o-linear-gradient($p, $cs, $ce) $i
+	background-image: linear-gradient(to buttom, $cs, $ce) $i
+=bg-n($i: null)
+	background: none $i
+
+// // display
+=d-b ($i: null)
+	display: block $i
+=d-i ($i: null)
+	display: inline $i
+=d-ib ($i: null)
+	display: inline-block $i
+=d-t ($i: null)
+	display: table $i
+=d-tc ($i: null)
+	display: table-cell $i
+=d-to ($i: null)
+	display: table-column $i
+=d-tr ($i: null)
+	display: table-row $i
+=d-n ($i: null)
+	display: $n $i
+=d-r ($i: null)
+	display: run-in $i
+=z-i ($u:1, $i: null)
+	z-index: $u $i
+=v-v ($i: null)
+	visibility: $v $i
+=v-h ($i: null)
+	visibility: $h $i
+=tl-f ($i: null)
+	table-layout: fixed $i
+=tl-a ($i: null)
+	table-layout: auto $i
+=op ($u:1, $i: null)
+	opacity: $u $i
+	filter: alpha(opactiy=($u * 100)) $i
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$u * 100})" $i
+	-moz-opacity: $u $i
+	-khtml-opacity: $u $i
+
+// position
+=clear
+	content: ''
+	+d-t
+	clear: both !important
+=a-clear
+	&:after
+		+clear
+=b-clear
+	&:before
+		+clear
+=all-clear
+	&:before,&:after
+		+clear
+
+=p-s ($i: null)
+	position: static $i
+=p-r ($i: null)
+	position: relative $i
+=p-a ($i: null)
+	position: absolute $i
+=p-f ($i: null)
+	position: fixed $i
+=o-a ($i: null)
+	overflow: $a $i
+=o-h ($i: null)
+	overflow: $h $i
+=o-s ($i: null)
+	overflow: scroll $i
+=o-v ($i: null)
+	overflow: visible $i
+=o-x ($u: $a, $i: null)
+	overflow-x: $u $i
+=o-y ($u: $a, $i: null)
+	overflow-y: $u $i
+=f-n ($i: null)
+	float: $n $i
+=f-l ($i: null)
+	float: $l $i
+=f-r ($i: null)
+	float: $r $i
+=v-t ($i: null)
+	vertical-align: $t $i
+=v-m ($i: null)
+	vertical-align: $m $i
+=v-b ($i: null)
+	vertical-align: $b $i
+=v-bl ($i: null)
+	vertical-align: baseline $i
+=v-a ($u:0, $i: null)
+	vertical-align: $u $i
+
+
+// shape
+=h ($u, $i: null)
+	height: $u $i
+=nh ($u, $i: null)
+	min-height: $u $i
+=xh ($u, $i: null)
+	max-height: $u $i
+=w ($u, $i: null)
+	width: $u $i
+=nw ($u, $i: null)
+	min-width: $u $i
+=xw ($u, $i: null)
+	max-width: $u $i
+
+=mg ($t: 0, $r: 0, $b: 0, $l: 0, $i: null)
+	margin: $t $r $b $l $i
+=mg-n ($a: null, $i: null)
+	margin: 0 $a $i
+=mg-e ($tb: 0, $lr: 0, $i: null)
+	margin: $tb $lr $i
+=mg-a ($u:0, $i: null)
+	margin: $u $i
+=mg-t ($u:0, $i: null)
+	margin-top: $u $i
+=mg-r ($u:0, $i: null)
+	margin-right: $u $i
+=mg-b ($u:0, $i: null)
+	margin-bottom: $u $i
+=mg-l ($u:0, $i: null)
+	margin-left: $u $i
+=mgp-a ($u:0, $i: null)
+	margin: $u / $layout * 100% $i
+=mgp-t ($u:0, $i: null)
+	margin-top: $u / $layout * 100% $i
+=mgp-r ($u:0, $i: null)
+	margin-right: $u / $layout * 100% $i
+=mgp-b ($u:0, $i: null)
+	margin-bottom: $u / $layout * 100% $i
+=mgp-l ($u:0, $i: null)
+	margin-left: $u / $layout * 100% $i
+
+=pd ($t: 0, $r: 0, $b: 0, $l: 0, $i: null)
+	padding: $t $r $b $l $i
+=pd-n ($a: null, $i: null)
+	padding: 0 $a $i
+=pd-e ($tb: 0, $lr: 0, $i: null)
+	padding: $tb $lr $i
+=pd-a ($u:0, $i: null)
+	padding: $u $i
+=pd-t ($u:0, $i: null)
+	padding-top: $u $i
+=pd-r ($u:0, $i: null)
+	padding-right: $u $i
+=pd-b ($u:0, $i: null)
+	padding-bottom: $u $i
+=pd-l ($u:0, $i: null)
+	padding-left: $u $i
+=pdp-a ($u:0, $i: null)
+	padding: $u / $layout * 100% $i
+=pdp-t ($u:0, $i: null)
+	padding-top: $u / $layout * 100% $i
+=pdp-r ($u:0, $i: null)
+	padding-right: $u / $layout * 100% $i
+=pdp-b ($u:0, $i: null)
+	padding-bottom: $u / $layout * 100% $i
+=pdp-l ($u:0, $i: null)
+	padding-left: $u / $layout * 100% $i
+
+=bd ($u: 1px, $l: solid, $c: $c-bd-dft, $i: null)
+	border: $u $l $c $i
+=bd-t ($u: 1px, $l: solid, $c: $c-bd-dft, $i: null)
+	border-top: $u $l $c $i
+=bd-r ($u: 1px, $l: solid, $c: $c-bd-dft, $i: null)
+	border-right: $u $l $c $i
+=bd-b ($u: 1px, $l: solid, $c: $c-bd-dft, $i: null)
+	border-bottom: $u $l $c $i
+=bd-l ($u: 1px, $l: solid, $c: $c-bd-dft, $i: null)
+	border-left: $u $l $c $i
+=bd-n ($n: 0, $i: null)
+	border: $n $i
+=bd-c ($c, $i: null)
+	border-color: $c $i
+=bdr ($tl: 0, $tr: 0, $br: 0, $bl: 0, $i: null)
+	border-radius: $tl $tr $br $bl $i
+=bdra ($u, $i: null)
+	border-radius: $u $i
+
+=otl ($u: 1px, $l: solid, $c: $c-otl-dft, $i: null)
+	outline: $u $l $c $i
+//=otl-t ($u: 1px, $l: solid, $c: $c-otl-dft, $i: null)
+//	outline-top: $u $l $c $i
+//=otl-r ($u: 1px, $l: solid, $c: $c-otl-dft, $i: null)
+//	outline-right: $u $l $c $i
+//=otl-b ($u: 1px, $l: solid, $c: $c-otl-dft, $i: null)
+//	outline-bottom: $u $l $c $i
+//=otl-l ($u: 1px, $l: solid, $c: $c-otl-dft, $i: null)
+//	outline-left: $u $l $c $i
+
+=csr-p ($i: null)
+	cursor: pointer $i
+=csr-h ($i: null)
+	cursor: help $i
+=csr-d ($i: null)
+	cursor: default $i
+
+// filter
+=filter($content...)
+	-webkit-filter: $content
+	-moz-filter: $content
+	-o-filter: $content
+	-ms-filter: $content
+	filter: $content
+
+// trasition
+=ttn-dft($abt: all, $ua: .2s, $opt: ease, $ub: 0)
+	-webkit-transition: $abt $ua $opt $ub
+	-moz-transition: $abt $ua $opt $ub
+	-ms-transition: $abt $ua $opt $ub
+	transition: $abt $ua $opt $ub
+
+=ttn-pre($content...)
+	-webkit-transition: $content
+	-moz-transition: $content
+	-ms-transition: $content
+	-o-transition: $content
+	transition: $content
+
+=tfm-pre($content...)
+	-webkit-transform: $content
+	-moz-transform: $content
+	-ms-transform: $content
+	transform: $content
+
+=tfm-origin ($content...)
+	-webkit-transform-origin: $content
+	-moz-transform-origin: $content
+	-ms-transform-origin: $content
+	transform-origin: $content
+
+// box-shadow
+=bxs-dft($l:0, $t:3px, $w:6px, $r:0, $g:0, $b:0, $o:.2, $i: null)
+	-moz-box-shadow: $l $t $w rgba($r,$b,$g,$o) $i
+	-webkit-box-shadow: $l $t $w rgba($r,$b,$g,$o) $i
+	box-shadow: $l $t $w rgba($r,$b,$g,$o) $i
+
+=bxs-inner($l:0, $t:3px, $w:6px, $r:0, $g:0, $b:0, $o:.3, $i: null)
+	-moz-box-shadow: inset $l $t $w rgba($r,$b,$g,$o) $i
+	-webkit-box-shadow: inset $l $t $w rgba($r,$b,$g,$o) $i
+	box-shadow: inset $l $t $w rgba($r,$b,$g,$o) $i
+
+// text-shadow
+=tts-dft($x:0, $y:2px, $b:2px, $r:0, $g:0, $b:0, $o:.3, $i: null)
+	text-shadow: $x $y $b rgba($r,$b,$g,$o) $i
+
+=pixelated
+	-ms-interpolation-mode: nearest-neighbor // IE 7+ (non-standard property)
+	image-rendering: -webkit-optimize-contrast // Safari 6, UC Browser 9.9
+	image-rendering: -webkit-crisp-edges // Safari 7+
+	image-rendering: -moz-crisp-edges // Firefox 3.6+
+	image-rendering: -o-crisp-edges // Opera 12
+	image-rendering: pixelated // Chrome 41+ and Opera 26+
+
+=fix-ie
+	@media all and (-ms-high-contrast: none) // ie 11 fix
+		//*::-ms-backdrop
+		@content
+=fix-edge
+	@supports (-ms-accelerator: true)
+		@content
+
+=fix-ff
+	@-moz-document url-prefix()
+		@content
+
+// mixin
+=rspnx ($mn-w, $mx-w)
+	$num: .01em
+	@media screen and (min-width: (($mn-w / 16) * 1em)) and (max-width: (($mx-w / 16) * 1em) - $num)
+		@content
+
+=media ($width)
+	@media screen and (max-width: #{$width})
+		@content
+
+=rspx ($w, $op: '')
+	$num: .01em
+	@if $op == f
+		$num: 0
+	@media screen and (max-width: (($w / 16) * 1em) - $num)
+		@content
+
+=rspn ($w)
+	@media screen and (min-width: (($w / 16) * 1em))
+		@content
