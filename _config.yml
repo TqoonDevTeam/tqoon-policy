@@ -17,5 +17,6 @@ baseurl: "/tqoon-policy" # the subpath of your site, e.g. /blog
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
-# Build settings
+wn_extra# Build settings
 markdown: kramdown
+#markdown: markdown_extra

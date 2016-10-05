@@ -11,7 +11,13 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight
 	margin-bottom: 5px
 h1, h2, h3, h4, h5, h6
 	color: #222
-
+blockquote
+	font-style: normal
+	+mg-e(10px, 0)
+	+pd-e(10px, 15px)
+	+bd-l($u: 5px)
+	> p
+		+mg-a($i:!important)
 strong, b
 	font-weight: 500
 	color: #222
@@ -31,6 +37,44 @@ i
 
 ul,ol,dl
 	line-height: 1.8
+
+table
+	border-spacing: 0
+	border-collapse: collapse
+	+bd-t($u: 2px)
+	+bd-b($u: 2px)
+	tr:nth-child(1)
+		th,td
+			+bd-n
+	th,td
+		+nw(120px)
+		+bd-t
+		+pd-e(10px,15px)
+	th
+		+ta-c
+	td
+		strong
+			+d-b
+			+mg-e(0,10px)
+			+ta-c
+		.center
+			+ta-c
+
+.ta-c
+	+ta-c($i:!important)
+.ta-l
+	+ta-l($i:!important)
+.ta-r
+	+ta-r($i:!important)
+
+.bd-t
+	+bd-t($i:!important)
+.bd-r
+	+bd-r($i:!important)
+.bd-l
+	+bd-l($i:!important)
+.bd-b
+	+bd-b($i:!important)
 
 // home
 .set-layout
