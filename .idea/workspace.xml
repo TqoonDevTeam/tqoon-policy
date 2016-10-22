@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f6bd5aa-64c1-4601-901e-1e8901085872" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-01-01-policy-default-01.markdown" afterPath="$PROJECT_DIR$/_posts/privacy/2016-01-01-policy-default-01.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-01-01-policy-default-02.markdown" afterPath="$PROJECT_DIR$/_posts/privacy/2016-01-01-policy-default-02.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-01-01-policy-default-03.markdown" afterPath="$PROJECT_DIR$/_posts/privacy/2016-01-01-policy-default-03.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-01-01-policy-default-04.markdown" afterPath="$PROJECT_DIR$/_posts/privacy/2016-01-01-policy-default-04.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-01-01-policy-default-05.markdown" afterPath="$PROJECT_DIR$/_posts/privacy/2016-01-01-policy-default-05.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-01-01-policy-default-06.markdown" afterPath="$PROJECT_DIR$/_posts/privacy/2016-01-01-policy-default-06.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-01-01-policy-default-all.markdown" afterPath="$PROJECT_DIR$/_posts/privacy/2016-01-01-policy-default-all.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_custom.sass" afterPath="$PROJECT_DIR$/_sass/_custom.sass" />
-    </list>
+    <list default="true" id="9f6bd5aa-64c1-4601-901e-1e8901085872" name="Default" comment="" />
     <ignored path="tqoon-policy.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -133,8 +122,8 @@
       <file leaf-file-name="_custom.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_custom.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
-              <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+            <state relative-caret-position="466">
+              <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -500,12 +489,12 @@
       <workItem from="1475485766673" duration="6597000" />
       <workItem from="1475630578494" duration="8576000" />
       <workItem from="1475720280624" duration="1268000" />
-      <workItem from="1477016871772" duration="9525000" />
+      <workItem from="1477016871772" duration="9596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40512000" />
+    <option name="totallyTimeSpent" value="40583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1183" height="1022" extended-state="0" />
@@ -1028,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_custom.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+        <state relative-caret-position="466">
+          <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
           <folding />
         </state>
       </provider>
